@@ -38,7 +38,7 @@ Posts.PropTypes = {
 }
 
 const mapStateToProps = state => ({
-  posts: state.posts.items // the reason why it is state.posts is because in the reducer, it is called posts.
+  posts: state.posts.items // the reason why it is state.posts is because in the root reducer, it is called posts.
 })
 
 // export default Posts;
